@@ -18,10 +18,12 @@ body {
 
 /* ----- ----- HEADER ----- ----- */
 header {
-  background: url("../img/bg.jpg"), #49A3D6;
+  background:
+  url("../img/paisaje.png");
+  height: 600px;
   background-repeat: no-repeat;
-  background-position: center;
-  max-height: 600px; }
+  background-size: cover;
+  background-position: center center; }
   header .menu {
     margin: 40px 0;
     text-align: right; }
@@ -34,7 +36,9 @@ header {
       text-decoration: none;
       border-bottom: 2px solid transparent; }
       header .menu a:hover {
-        border-bottom: 2px solid #fff; }
+        border-bottom: 2px solid rgb(214, 209, 209);
+       color:rgb(214, 209, 209);
+      }
   header .contenedor-texto {
     display: flex;
     justify-content: center;
@@ -87,7 +91,7 @@ header {
       color: #3895ea;
       text-decoration: underline; }
 .main .trabajos {
-  background: #f2f2f2;
+  background: #4a4444;
   padding: 60px 0; }
   .main .trabajos .contenedor {
     overflow: hidden; }
@@ -96,7 +100,7 @@ header {
     line-height: 34px;
     margin-bottom: 60px;
     font-weight: 300;
-    color: #323068;
+    color: #fff;
     text-align: center; }
   .main .trabajos .contenedor-trabajos {
     display: flex;
@@ -117,11 +121,14 @@ header {
         text-align: center; }
         .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
           font-weight: 700;
-          color: #3895ea;
+          color: #f9f9f9;
           margin-bottom: 10px; }
+          .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre:hover{
+            color:rgb(222, 0, 0);
+          }
         .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
           font-size: 14px;
-          color: #636363; }
+          color: #20b5e3; }
 
 /* ----- ----- FOOTER ----- ----- */
 footer .contacto {
@@ -131,7 +138,7 @@ footer .contacto {
     line-height: 34px;
     margin-bottom: 60px;
     font-weight: 300;
-    color: #3895ea;
+    color: #dd820d;
     text-align: center; }
   footer .contacto .formulario {
     display: flex;
@@ -158,13 +165,13 @@ footer .contacto {
       max-height: 300px; }
     footer .contacto .formulario .boton {
       margin: auto;
-      background: #3895ea;
+      background: #dd820d;
       color: #fff;
       border: none;
       border-radius: 3px;
       padding: 15px 40px; }
       footer .contacto .formulario .boton:hover {
-        background: #387bea; }
+        background: #d57311; }
 footer .redes-sociales {
   background: #1e2b38;
   padding: 60px 0; }
